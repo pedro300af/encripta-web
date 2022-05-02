@@ -1,0 +1,54 @@
+body{
+    background-color: #E5E5E5;
+}
+
+h1{
+    text-transform: capitalize;
+    color: #0A3871;
+}
+
+input{
+    margin-left: 240px;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+    background-color: #E5E5E5;
+    border: none;
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 240px;
+    font-size: 8px;
+    text-transform: capitalize;
+}
+
+#ingresar-texto p{
+    color: #0A3871;
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+.boton-encriptar{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    background-color: #0A3871;
+    border: none;
+    color: white;
+    margin-left: 240px;
+}
+
+.boton-desencriptar{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    border-color: #0A3871;
+    margin-left: 60px;
+}
+
+
