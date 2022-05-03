@@ -2,12 +2,17 @@ body{
     background-color: #E5E5E5;
 }
 
+#imagen{
+    display: inline;
+}
+
 h1{
     text-transform: capitalize;
     color: #0A3871;
+    display: inline;
 }
 
-input{
+#texto{
     margin-left: 240px;
     width: 450px;
     height: 350px;
@@ -16,10 +21,10 @@ input{
     border: none;
 }
 
-p{
+.texto-primario{
     margin-top: 20px;
     margin-left: 240px;
-    font-size: 8px;
+    font-size: 10px;
     text-transform: capitalize;
 }
 
@@ -49,6 +54,37 @@ p{
     color: #0A3871;
     border-color: #0A3871;
     margin-left: 60px;
+}
+
+.caja-salida{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    margin-left: 800px;
+    margin-top: -525px;
+    border-color: #0A3871 solid;
+    border-radius: 20px;
+}
+
+#imagen-secundaria{
+    margin-top: 50px;
+}
+
+.texto-secudario{
+    color: #0A3871;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.texto-secudnario2{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #0A3871;
 }
 
 
