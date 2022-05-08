@@ -12,6 +12,13 @@ h1{
     display: inline;
 }
 
+#imagen-hithub{
+    height: 60px;
+    height: 60px;
+    display: inline;
+    margin-left: 50px;
+}
+
 #texto{
     margin-left: 240px;
     width: 450px;
@@ -61,7 +68,7 @@ h1{
     height: 550px;
     background-color: white;
     margin-left: 800px;
-    margin-top: -525px;
+    margin-top: -550px;
     border-color: #0A3871 solid;
     border-radius: 20px;
 }
@@ -87,4 +94,88 @@ h1{
     color: #0A3871;
 }
 
+/*media*/
+@media screen and (max-width: 768px) and (max-height: 1174px){
+    #imagen-secundaria{
+        display: none;
+    }
+    .texto-secudario{
+        padding: 50px;
+    }
+    
+    .texto-secudnario2{
+        margin-top: -70px;
+    }
+    #ingresar-texto p{
+        margin-left: 80px;
+    }
+    #texto{
+        width: 600px;
+        height: 500px;
+        margin-left: 80px;
+    }
+    .texto-primario{
+        margin-top: 10px;
+        margin-left: 170px;
+    }
+    .boton-encriptar{
+        margin-top: -350px;
+        margin-left: 140px;
+    }
+    .caja-salida{
+        width: 600px;
+        height: 146px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left:80px;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 933px){
+    #imagen-hithub{
+        margin-left: 250px;
+        margin-top: -180px;
+    }
+    h1{
+        display: none;
+    }
+    .imagen{
+        margin-top: 20px;
+    }
+    #ingresar-texto p{
+        margin-left: 50px;
+    }
+    #texto{
+        width: 300px;
+        height: 500px;
+        margin-left: 20px;
+    }
+    .boton-encriptar{
+        display: block;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .boton-desencriptar{
+        display: block;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .texto-primario{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .caja-salida{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .texto-secudario{
+        padding: 10px;
+    }
+    .texto-secudnario2{
+        margin-top: -10px;
+    }
+}
 
