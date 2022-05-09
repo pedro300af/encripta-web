@@ -13,7 +13,8 @@
     <header>
         <img class="imagen" src="data/img/Logo.png" alt="alura" sizes="" srcset="">
         <h1> alura latam</h1>
-        <a href="https://github.com/pedro300af/encripta-web"><img id="imagen-hithub" src="data/img/github-icon-1.svg" alt="github"></a>
+        <a href="https://github.com/pedro300af/encripta-web"><img id="imagen-hithub" src="data/img/github-icon-1.svg"
+                alt="github"></a>
     </header>
     <main>
         <section id="principal">
@@ -22,8 +23,9 @@
             </label>
             <input type="text" name="texto" id="texto">
             <p class="texto-primario">solo letras minusculas y sin acentos</p>
-            <button type="submit" class="boton-encriptar" onclick="encriptar()">encriptar</button>
-            <button type="submit" class="boton-desencriptar" onclick="desencriptar()">desencriptar</button>
+            <button type="submit" class="boton-encriptar" onclick="encriptar(), ocultar(), mostrar()">encriptar</button>
+            <button type="submit" class="boton-desencriptar"
+                onclick="desencriptar(), ocultar(), mostrar()">desencriptar</button>
         </section>
 
         <section id="secundario">
@@ -31,12 +33,14 @@
                 <img src="data/img/Muñeco.png" alt="" id="imagen-secundaria">
                 <p class="texto-secudario">Ningun mensaje fue encotrado</p>
                 <p class="texto-secudnario2">ingresa el texto que deseas encriptar o desencriptar</p>
+                <div class="div-scroll">
+                    <p class="mostrar-texto"></p> 
+                </div>
+                <button type="submit" class="boton-copiar" onclick="copiar()">Copiar</button>
             </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
 <script src="js/index.js"></script>
+
 </html>
