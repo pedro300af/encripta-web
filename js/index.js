@@ -9,13 +9,17 @@ let remplazar = {
 
 function encriptar() {
     let texto = document.getElementById("texto").value;
+
+    textoNuevo = texto.replace(/a/gi, "ai").replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/o/gi, "ober").replace(/u/gi, "ufat");
+
     if (texto == "") {
         alert("Ingresar el texto, por favor");
     } else {
-        textoNuevo = texto.replace(/a/g, "ai").replace(/e/g, "enter").replace(/i/g, "imes").replace(/o/g, "ober").replace(/u/g, "ufat");
+        let textoNuevo = texto.replace(/a/gi, "ai").replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/o/gi, "ober").replace(/u/gi, "ufat");
         let cambiar = document.querySelector(".mostrar-texto");
         cambiar.innerHTML = textoNuevo;
     }
+
 }
 
 function desencriptar() {
@@ -24,7 +28,7 @@ function desencriptar() {
     if (texto == "") {
         alert("Ingresar el texto, por favor");
     } else {
-        let textoNuevo = texto.replace(/ai/g, "a").replace(/enter/g, "e").replace(/imes/g, "i").replace(/ober/g, "o").replace(/ufat/g, "u");
+        let textoNuevo = texto.replace(/ai/gi, "a").replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ober/gi, "o").replace(/ufat/gi, "u").replace(/mes/gi, "");
 
         let cambiar = document.querySelector(".mostrar-texto")
         cambiar.innerHTML = textoNuevo;
